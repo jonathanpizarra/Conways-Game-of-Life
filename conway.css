@@ -1,0 +1,42 @@
+body{
+  margin:0;
+  padding:0;
+}
+
+*{
+  color:#eee;
+  font-family:sans-serif;
+}
+
+#canvas{
+  border:1px solid black;
+
+}
+
+#grid{
+  border-collapse:collapse;
+}
+
+td{
+  width:5px;
+  height:5px;
+  border:1px solid blue;
+  background-color:black;
+}
+
+#container{
+  position:absolute;
+    bottom:0px;
+    left:0px;
+  border:1px solid green;
+}
+
+button{
+  background-color:rgba(255, 255, 255, 0.5);
+  border:1px solid gray;
+
+}
+
+#patterns, #patterns option{
+  background-color:rgba(255, 255, 255 ,0.5) ;
+}
