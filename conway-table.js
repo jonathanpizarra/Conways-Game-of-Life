@@ -1,3 +1,6 @@
+/*
+  A version using table. Abandoned the idea because it is too slow.
+*/
 let w, h;
 let setInt, int, raf, state;
 let table, td, len, stats, row, col, cell, button;
